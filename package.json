@@ -1,0 +1,23 @@
+{
+  "name": "personal-brand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Juan-AndOnly/Portfolio2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Juan-AndOnly/Portfolio2/issues"
+  },
+  "homepage": "https://github.com/The-Juan-AndOnly/Portfolio2#readme"
+}
