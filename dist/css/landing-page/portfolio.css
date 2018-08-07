@@ -81,10 +81,11 @@
 }
 
 #portfolio .portfolio-container .box.image1 .image {
+  background: url('../../img/responsive1.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
-  height: auto;
+  height: 100%;
   width: 100%;
   opacity: 0.65;
 }
