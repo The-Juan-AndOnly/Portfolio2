@@ -1,0 +1,182 @@
+#skills {
+  padding: 80px 15px;
+}
+
+#skills .large-title {
+  color: #c6e4ff;
+  font-weight: 900;
+  font-size: 4.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+  left: -50px;
+}
+
+#skills .skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#skills .skills-container .large-icons .square {
+  border: 30px solid #52b8ff;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: -100px;
+}
+
+/* Fix the skills Section from the video */
+
+#skills .skills-container .large-icons .square .blue-box {
+  height: 150px;
+  width: 150px;
+  background: #52b8ff;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+#skills .skills-container .large-icons .circle {
+  border: 30px solid #ffc853;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 100%;
+  position: relative;
+  top: 75px;
+  left: 50px;
+}
+
+#skills .skills-container .large-icons .circle .white-box {
+  height: 150px;
+  width: 150px;
+  color: #ffc853;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  font-size: 0.9rem;
+  padding: 5px;
+}
+
+#skills .skills-container .large-icons .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 150px 230px 150px;
+  border-color: transparent transparent #ff5253 transparent;
+  position: relative;
+}
+
+#skills .skills-container .large-icons .triangle .triangle-box {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 93.75px 151.75px 93.75px;
+  border-color: transparent transparent #ffffff transparent;
+  position: absolute;
+  left: -94px;
+  top: 49px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ff5253;
+}
+
+#skills .skills-container .large-icons .triangle-box .text {
+  position: relative;
+  top: 98px;
+  left: -29px;
+}
+
+#skills .skills-container .skills-info {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#skills .skills-container .skills-info ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skills .skills-container .skills-info ul li {
+  width: 50%;
+  text-align: center;
+  margin: 0.75rem 0;
+  font-size: 1.75rem;
+  color: #52b7ff;
+  font-weight: 700;
+}
+/* #skills .skills-container .skills-info .info-box{
+    padding:15px;
+}
+
+#skills .skills-container .skills-info .info-box h4{
+    color: #17171b;
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#skills .skills-container .skills-info .info-box .date {
+    color: #52b7ff;
+    font-weight: 600;
+    font-size: .9rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 15px 0;
+    display:block;
+}
+#skills .skills-container .skills-info .info-box p {
+    color: #b2b2b4;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+} */
+
+/* Media Quieries for Responsive Web */
+
+/* Tablets */
+@media only screen and (max-width: 960px) {
+  #skills .skills-container .large-icons .square {
+    top: -10px;
+    left: 50px;
+  }
+
+  #skills .skills-container .large-icons .circle {
+    top: -5px;
+  }
+
+  #skills .skills-container .large-icons .triangle {
+    left: 10px;
+  }
+}
+
+/* Mobile Phones */
+
+@media only screen and (max-width: 767px) {
+  #skills .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  #skills .large-title {
+    font-size: 3.5rem;
+    left: 0;
+  }
+
+  #skills .skills-container .large-icons {
+    display: none;
+  }
+}

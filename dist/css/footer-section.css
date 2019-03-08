@@ -1,0 +1,50 @@
+footer {
+  background: #f9fafc;
+  padding-top: 100px 15px;
+}
+
+footer .social-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-container a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #8e8f91;
+  display: inline-block;
+  padding: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+footer .social-container a:hover {
+  color: rgba(100, 255, 255, 0.8);
+}
+
+footer h5 {
+  font-size: 1rem;
+  color: #1f1f1f;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer h6 {
+  font-size: 0.8rem;
+  color: #1f1f1f;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* Media Quieries for Responsive Web */
+
+/* Tablets */
+@media only screen and (max-width: 960px) {
+}
+
+/* Mobile Phones */
+
+@media only screen and (max-width: 767px) {
+}
