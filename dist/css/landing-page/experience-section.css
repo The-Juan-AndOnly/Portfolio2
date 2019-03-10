@@ -1,142 +1,140 @@
 #experience {
-    padding:80px 15px;
+  padding: 80px 15px;
 }
 
-#experience .large-title{
-    color: #c6e4ff;
-    font-weight: 900;
-    font-size: 4.5rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    position: relative;
-    left:-50px;
+#experience .large-title {
+  color: #c6e4ff;
+  font-weight: 900;
+  font-size: 4.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+  left: -50px;
 }
 
 #experience .experience-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
-#experience .experience-container .large-icons .square{
-    border: 30px solid #52b8ff;
-    padding: 5px;
-    display: inline-block;
-    position: relative;
-    top:-100px;
+#experience .experience-container .large-icons .square {
+  border: 30px solid #52b8ff;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: -100px;
 }
-
 
 /* Fix the Experience Section from the video */
 
-#experience .experience-container .large-icons .square .blue-box{
-    height:150px;
-    width:150px;
-    background: #52b8ff;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 600;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 5px;
-    padding:5px;
-    font-size: .9rem;
+#experience .experience-container .large-icons .square .blue-box {
+  height: 150px;
+  width: 150px;
+  background: #52b8ff;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  padding: 5px;
+  font-size: 0.9rem;
 }
 
-#experience .experience-container .large-icons .circle{
-    border: 30px solid #ffc853;
-    padding: 5px;
-    display: inline-block;
-    border-radius: 100%;
-    position: relative;
-    top:75px;
-    left:50px;
-    
+#experience .experience-container .large-icons .circle {
+  border: 30px solid #ffc853;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 100%;
+  position: relative;
+  top: 75px;
+  left: 50px;
 }
 
-#experience .experience-container .large-icons .circle .white-box{
-    height:150px;
-    width:150px;
-    color: #ffc853;
-    text-transform: uppercase;
-    font-weight: 600;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 5px;
-    font-size: .9rem;
-    padding:5px;
+#experience .experience-container .large-icons .circle .white-box {
+  height: 150px;
+  width: 150px;
+  color: #ffc853;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  font-size: 0.9rem;
+  padding: 5px;
 }
 
 #experience .experience-container .large-icons .triangle {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 150px 230px 150px;
-    border-color: transparent transparent #ff5253 transparent;
-    position: relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 150px 230px 150px;
+  border-color: transparent transparent #ff5253 transparent;
+  position: relative;
 }
 
-#experience .experience-container .large-icons .triangle .triangle-box{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 93.75px 151.75px 93.75px;
-    border-color: transparent transparent #ffffff transparent;
-    position: absolute;
-    left: -94px;
-    top: 49px;
-    font-weight: 600;
-    font-size: 1.1rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #ff5253;
+#experience .experience-container .large-icons .triangle .triangle-box {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 93.75px 151.75px 93.75px;
+  border-color: transparent transparent #ffffff transparent;
+  position: absolute;
+  left: -94px;
+  top: 49px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ff5253;
 }
 
 #experience .experience-container .large-icons .triangle-box .text {
-    position: relative;
-    top: 98px;
-    left: -29px;
+  position: relative;
+  top: 98px;
+  left: -29px;
 }
 
 #experience .experience-container .experience-info {
-    padding: 15px;
+  padding: 15px;
 }
 
-#experience .experience-container .experience-info .info-box{
-    padding:15px;
+#experience .experience-container .experience-info .info-box {
+  padding: 15px;
 }
 
-#experience .experience-container .experience-info .info-box h4{
-    color: #17171b;
-    font-size: 1.1rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+#experience .experience-container .experience-info .info-box h4 {
+  color: #17171b;
+  font-size: 1.1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 #experience .experience-container .experience-info .info-box .date {
-    color: #52b7ff;
-    font-weight: 600;
-    font-size: .9rem;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    padding: 15px 0;
-    display:block;
+  color: #52b7ff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 15px 0;
+  display: block;
 }
 #experience .experience-container .experience-info .info-box p {
-    color: #b2b2b4;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.6;
+  color: #b2b2b4;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 /* Media Quieries for Responsive Web */
 
 /* Tablets */
-@media only screen and (max-width:960px){
+/* @media only screen and (max-width:960px){
     #experience .experience-container .large-icons .square {
         top:-10px;
         left: 50px;
@@ -150,23 +148,21 @@
         left: 10px;
     }
 
-}
+} */
 
 /* Mobile Phones */
 
-@media only screen and (max-width:767px){
-    #experience .experience-container {
-        grid-template-columns: 1fr;
-    }
+/* @media only screen and (max-width: 767px) {
+  #experience .experience-container {
+    grid-template-columns: 1fr;
+  }
 
-    #experience .large-title {
-        font-size: 3.5rem;
-        left:0;
-    }
+  #experience .large-title {
+    font-size: 3.5rem;
+    left: 0;
+  }
 
-    #experience .experience-container .large-icons {
-        display:none;
-    }
-
-
-}
+  #experience .experience-container .large-icons {
+    display: none;
+  }
+} */

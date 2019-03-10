@@ -4,8 +4,6 @@
 @import 'landing-page/skills-section.css';
 @import 'landing-page/portfolio.css';
 @import 'landing-page/services-section.css';
-@import 'landing-page/blog-section.css';
-@import 'landing-page/testimonial-section.css';
 @import 'footer-section.css';
 @import 'portfolio-page/vince-page.css';
 @import 'portfolio-page/responsive-page.css';
@@ -104,14 +102,14 @@ nav .menu-btn {
   background: #ff5253;
 }
 
-@media only screen and (max-width: 960px) {
+/* @media only screen and (max-width: 960px) {
   .container {
     width: 100%;
   }
 }
 
 /* Phones */
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   nav .logo .jl-logo {
     height: 60px;
     width: 60px;
@@ -124,4 +122,4 @@ nav .menu-btn {
   nav .menu-btn {
     display: flex;
   }
-}
+} */

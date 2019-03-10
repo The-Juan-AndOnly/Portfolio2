@@ -143,7 +143,7 @@
 
 /* Mobile Phones */
 
-@media only screen and (max-width: 960px) {
+/* @media only screen and (max-width: 960px) {
   #portfolio .portfolio-container {
     grid-template-rows: 300px 300px 300px;
   }
@@ -176,4 +176,4 @@
   #portfolio .portfolio-container .box.image3 .image {
     background-position: top center;
   }
-}
+} */

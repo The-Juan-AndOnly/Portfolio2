@@ -1,0 +1,136 @@
+@media only screen and (max-width: 960px) {
+  .container {
+    width: 100%;
+  }
+
+  #services .services-container {
+    grid-template-columns: 100%;
+  }
+
+  #services .services-container .box {
+    background: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  #portfolio .portfolio-container {
+    grid-template-rows: 300px 300px 300px;
+  }
+
+  #portfolio .portfolio-container .box.image1 {
+    grid-column: 1/4;
+    grid-row: 1 / 2;
+  }
+
+  #portfolio .portfolio-container .box.image2 {
+    grid-column: 1/4;
+    grid-row: 2 / 3;
+  }
+
+  #portfolio .portfolio-container .box.image3 {
+    grid-column: 1/4;
+    grid-row: 3 / 4;
+  }
+
+  #portfolio .portfolio-container .box:hover .image .title .text {
+    transform: translate3d(0, 20px, 0);
+  }
+
+  #portfolio .portfolio-container .box.image1 .image {
+    background-position: top center;
+  }
+  #portfolio .portfolio-container .box.image2 .image {
+    background-position: top center;
+  }
+  #portfolio .portfolio-container .box.image3 .image {
+    background-position: top center;
+  }
+
+  #skills .skills-container .large-icons .square {
+    top: -10px;
+    left: 50px;
+  }
+
+  #skills .skills-container .large-icons .circle {
+    top: -5px;
+  }
+
+  #skills .skills-container .large-icons .triangle {
+    left: 10px;
+  }
+
+  #experience .experience-container .large-icons .square {
+    top: -10px;
+    left: 50px;
+  }
+
+  #experience .experience-container .large-icons .circle {
+    top: -5px;
+  }
+
+  #experience .experience-container .large-icons .triangle {
+    left: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav .logo .jl-logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  nav .nav-menu {
+    display: none;
+  }
+
+  nav .menu-btn {
+    display: flex;
+  }
+  #top .container {
+    padding: 0 0 80px;
+  }
+
+  #top .background-square {
+    display: none;
+  }
+
+  #top .image .profile-picture {
+    height: 350px;
+    max-width: 200px;
+  }
+
+  #skills .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  #skills .large-title {
+    font-size: 3.5rem;
+    left: 0;
+  }
+
+  #skills .skills-container .large-icons {
+    display: none;
+  }
+
+  #experience .experience-container {
+    grid-template-columns: 1fr;
+  }
+
+  #experience .large-title {
+    font-size: 3.5rem;
+    left: 0;
+  }
+
+  #experience .experience-container .large-icons {
+    display: none;
+  }
+}
+
+/* Mobile Phone Styling */
+@media (max-width: 560px) {
+  #top .image .profile-picture {
+    max-width: 200px;
+    height: 300px;
+  }
+}

@@ -149,7 +149,7 @@
 /* Media Quieries for Responsive Web */
 
 /* Tablets */
-@media only screen and (max-width: 960px) {
+/* @media only screen and (max-width: 960px) {
   #skills .skills-container .large-icons .square {
     top: -10px;
     left: 50px;
@@ -162,11 +162,11 @@
   #skills .skills-container .large-icons .triangle {
     left: 10px;
   }
-}
+} */
 
 /* Mobile Phones */
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   #skills .skills-container {
     grid-template-columns: 1fr;
   }
@@ -179,4 +179,4 @@
   #skills .skills-container .large-icons {
     display: none;
   }
-}
+} */
