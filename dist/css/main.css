@@ -10,6 +10,10 @@
 @import 'portfolio-page/vince-page.css';
 @import 'portfolio-page/responsive-page.css';
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1150px;
   margin: 0 auto;
