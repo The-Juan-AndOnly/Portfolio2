@@ -81,7 +81,7 @@
 }
 
 #portfolio .portfolio-container .box.image1 .image {
-  background: url('../../img/vinces.png') no-repeat center/cover;
+  background: url('../../img/vinces.jpg') no-repeat center/cover;
   /* background-repeat: no-repeat;
   background-size: contain;
   background-position: center center; */
@@ -96,7 +96,7 @@
 }
 
 #portfolio .portfolio-container .box.image2 .image {
-  background: url('../../img/jnoah.png') no-repeat center/cover;
+  background: url('../../img/jnoah.jpg') no-repeat center/cover;
 
   height: 100%;
   width: 100%;
